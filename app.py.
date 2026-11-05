@@ -19,7 +19,7 @@ activities = [
     "Development of fries",
     "promoting our fries company",
     "producing fries",
-]
+
 
 st.title(club_info["name"])
 st.caption("A fictional CIS 211 course project. These are not real campus arrangements.")
@@ -27,10 +27,9 @@ st.caption("A fictional CIS 211 course project. These are not real campus arrang
 # Remove this starter message when your page is complete.
 st.write("Starter page: complete the TODO sections using the Lab 4 guide.")
 
-st.header("Our company makes fresh french fries from scratch using organic potatatoes. we focus on making fries that are fresh and crispy. our goal is give people the best french fries in the world.) to write your own two- or three-sentence introduction.")
-# TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
-# Include both **bold** and *italic* text inside your Python string.
-# The handout explains triple quotes if your Markdown spans several lines.
+st.header("About this club or service") 
+ st.markdown("""Fries Forex is a company makes fresh french fries from scratch using organic potatatoes. we focus on making fries that are **fresh and crispy**. our goal is give people the best *french fries* in the world.""") 
+ 
 
 st.header("Activities or services")
 # TODO 4: Write a for loop that displays every value from activities.
