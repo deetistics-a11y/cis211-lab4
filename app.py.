@@ -34,15 +34,26 @@ st.header("About this club or service")
 st.header("Activities or services")
 # TODO 4: Write a for loop that displays every value from activities.
 # Use Streamlit output inside the loop. Do not type each activity again.
+for activity in activities: st.write(activity)
 
 st.header("Details")
 # TODO 5: Display at least two dictionary values by looking them up by key.
 # Give the displayed values meaningful labels such as Day and Time.
-
+st.write("meeting Day:", Club_info["day"])
+st.write("meeting time:", club_info["time*])
 st.header("Prepare for a visit")
 # TODO 6: Use st.markdown() to display a three-item Markdown list.
 # Add one meaningful, working external Markdown link.
+st.markdown("
+learn about french fries.
+Explore how we make our fries.
+come and try our fries!
+
 
 # TODO 7: Add at least three comments explaining your OWN completed code.
+# The store company name and meeting information 
+# contains ACTIVITIES
+# This loop shows every activity on this page
 # TODO 8: Perform both change checks and complete the private submission template.
+
 # Upload your final source files, links, reflection, and app screenshots to Brightspace.
