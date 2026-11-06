@@ -31,6 +31,8 @@ st.header("About this club or service")
 # TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
 # Include both **bold** and *italic* text inside your Python string.
 # The handout explains triple quotes if your Markdown spans several lines.
+ st.markdown("Fries Forex is a company makes fresh french fries from scratch using organic potatatoes. we focus on making fries that are **fresh and crispy**. our goal is give people the best *french fries* in the world.") 
+ 
 
 st.header("Activities or services")
 # TODO 4: Write a for loop that displays every value from activities.
