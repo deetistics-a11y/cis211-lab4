@@ -16,9 +16,9 @@ club_info = {
 # TODO 2: Replace these sample strings with at least three relevant activities.
 # During the list change check, add one new item and keep it in the final app.
 activities = [
-    "Replace with your first activity",
-    "Replace with your second activity",
-    "Replace with your third activity",
+    "producing fries",
+    "Development of french fries",
+    "promoting our fry company",
 ]
 
 st.title(club_info["name"])
