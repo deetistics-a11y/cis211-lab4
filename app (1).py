@@ -8,7 +8,7 @@ import streamlit as st
 # TODO 1: Replace these values with your own fictional club or service details.
 # Keep at least three key-value pairs. You may add more.
 club_info = {
-    "name": "Your fictional club",
+    "name": "Fries forex",
     "day": "Choose a fictional meeting day",
     "time": "Choose a fictional meeting time",
 }
